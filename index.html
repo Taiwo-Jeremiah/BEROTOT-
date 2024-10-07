@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+    <!--=============== REMIXICON ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="styles.css">
+
+    
+    <title>Responsive Gym Website</title>
+
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+        emailjs.init("7_KG1YN5rM8aJyvzP");
+    })();
+</script>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="logo-div"><img src="images/logo-nav.png" alt="logo">BEROTOT</div>
+            <div class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#home" class="nav-link active-link">Home</a></li>
+                    <li><a href="#program" class="nav-link">Program</a></li>
+                    <li><a href="#choose" class="nav-link">Choose Us</a></li>
+                    <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                    <button class="register-btn nav-link"><a href="#register">Register Now</a></button>
+                </ul>
+                <!-- nav close -->
+                <div class="nav-close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+            <!-- nav toggle -->
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home-container container grid">
+                <div class="home-info">
+                    <h2 class="home-subtitle">MAKE YOUR</h2>
+                    <h1 class="home-title">BODY SHAPE</h1>
+                    <p class="home-description">In here we will help you to shape and build your ideal
+                        body and live your life to the fullest.</p>
+                    <a href="#" class="button button-flex">Get Started <i class="ri-arrow-right-line"></i></a>
+                </div>
+                <div class="home-img">
+                    <img src="images/home-img.png" alt="home" class="home-image">
+
+                    <div class="home-triangle home-triangle-3"></div>
+                    <div class="home-triangle home-triangle-2"></div>
+                    <div class="home-triangle home-triangle-1"></div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== LOGOS ====================-->
+        <section class="logos section">
+            <div class="logos-container container grid">
+                <img src="images/logo1.png" alt="logo" class="logo-img">
+                <img src="images/logo2.png" alt="logo" class="logo-img">
+                <img src="images/logo3.png" alt="logo" class="logo-img">
+                <img src="images/logo4.png" alt="logo" class="logo-img">
+            </div>
+        </section>
+
+        <!--==================== PROGRAM ====================-->
+        <section class="program section" id="program">
+            <div class=" container">
+                <div class="section-data">
+                    <h2 class="section-subtitle">Our Program</h2>
+                    <div class="section-titles">
+                        <h1 class="section-title-border">BUILD YOUR</h1>
+                        <h1 class="section-title">BEST BODY</h1>
+                    </div>
+                </div>
+                <div class="program-container grid">
+                    <div class="program-cards">
+                        <div class="program-shape">
+                            <img src="images/program1.png" alt="program">
+                        </div>
+                        <h3 class="program-title">Flex Muscle</h3>
+                        <p class="program-description">Creating tension that's temporarily making the muscle
+                            fibers smaller or contracted.</p>
+                        <a href="#" class="program-btn">
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+                    <div class="program-cards">
+                        <div class="program-shape">
+                            <img src="images/program2.png" alt="program">
+                        </div>
+                        <h3 class="program-title">Cardio Exercise</h3>
+                        <p class="program-description">Exercise your heart rate up and keeps it
+                            up for a prolonged period of time.</p>
+                        <a href="#" class="program-btn">
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+                    <div class="program-cards">
+                        <div class="program-shape">
+                            <img src="images/program3.png" alt="program">
+                        </div>
+                        <h3 class="program-title">Basic Yoga</h3>
+                        <p class="program-description">Diaphragmatic this is the most common breathing
+                            technique you'll find in yoga.</p>
+                        <a href="#" class="program-btn">
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+                    <div class="program-cards">
+                        <div class="program-shape">
+                            <img src="images/program4.png" alt="program">
+                        </div>
+                        <h3 class="program-title">Weight Lifting</h3>
+                        <p class="program-description">Attempts a maximum weight single lift of a
+                            barbell loaded with weight plates.</p>
+                        <a href="#" class="program-btn">
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== CHOOSE US ====================-->
+        <section class="choose section" id="choose">
+            <div class="container grid choose-grid-container">
+                <div class="choose-content">
+                    <div class="section-data">
+                        <h2 class="section-subtitle">Best Reason</h2>
+                        <div class="section-titles">
+                            <h1 class="section-title-border">WHY</h1>
+                            <h1 class="section-title">CHOOSE US ?</h1>
+                        </div>
+
+                    </div>
+
+                    <p class="choose-description">Choose your favorite class and start now. Remember the
+                        only bad workout is the one you didn't do.
+                    </p>
+                    <div class="choose-data grid">
+                        <div class="choose-group">
+                            <h2 class="choose-number">200+</h2>
+                            <p class="choose-subtitle">Total Members</p>
+                        </div>
+                        <div class="choose-group">
+                            <h2 class="choose-number">50+</h2>
+                            <p class="choose-subtitle">Best trainers</p>
+                        </div>
+                        <div class="choose-group">
+                            <h2 class="choose-number">25+</h2>
+                            <p class="choose-subtitle">Programs</p>
+                        </div>
+                        <div class="choose-group">
+                            <h2 class="choose-number">100+</h2>
+                            <p class="choose-subtitle">Awards</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="choose-images">
+                    <img src="images/choose-img.png" alt="choose image" class="choose-image">
+
+                    <div class="choose-triangle choose-triangle-3"></div>
+                    <div class="choose-triangle choose-triangle-2"></div>
+                    <div class="choose-triangle choose-triangle-1"></div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--==================== PRICING ====================-->
+        <section class="pricing section" id="pricing">
+            <div class=" container">
+                <div class="section-data">
+                    <h2 class="section-subtitle">Pricing</h2>
+                    <div class="section-titles">
+                        <h1 class="section-title-border">OUR</h1>
+                        <h1 class="section-title">SPECIAL PLAN</h1>
+                    </div>
+                </div>
+                <div class="pricing-container grid">
+                    <div class="pricing-cards">
+                        <div class="pricing-shape">
+                            <img src="images/pricing1.png" alt="pricing">
+                        </div>
+                        <h3 class="pricing-title">BASIC PACKAGE</h3>
+                        <h1 class="pricing-number">$120</h1>
+                        <ul>
+                            <li><i class="ri-checkbox-circle-line"></i>5 Days In A Week</li>
+                            <li><i class="ri-checkbox-circle-line"></i>01 Sweatshirt</li>
+                            <li class="pricing-opacity"><i class="ri-checkbox-circle-line"></i>01 Bottle of Protein</li>
+                            <li class="pricing-opacity"><i class="ri-checkbox-circle-line"></i>Access to Videos</li>
+                            <li class="pricing-opacity"><i class="ri-checkbox-circle-line"></i>Muscle Stretching</li>
+                        </ul>
+                        <a href="#" class="pricing-btn button button-flex">Purchase Now
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+                    <div class="pricing-cards premium-package">
+                        <div class="pricing-shape">
+                            <img src="images/pricing2.png" alt="pricing">
+                        </div>
+                        <h3 class="pricing-title">PREMIUM PACKAGE</h3>
+                        <h1 class="pricing-number">$240</h1>
+                        <ul>
+                            <li><i class="ri-checkbox-circle-line"></i>5 Days In A Week</li>
+                            <li><i class="ri-checkbox-circle-line"></i>01 Sweatshirt</li>
+                            <li><i class="ri-checkbox-circle-line"></i>01 Bottle of Protein</li>
+                            <li class="pricing-opacity"><i class="ri-checkbox-circle-line"></i>Access to Videos</li>
+                            <li class="pricing-opacity"><i class="ri-checkbox-circle-line"></i>Muscle Stretching</li>
+                        </ul>
+                        <a href="#" class="pricing-btn button button-flex">Purchase Now
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+                    <div class="pricing-cards">
+                        <div class="pricing-shape">
+                            <img src="images/pricing3.png" alt="pricing">
+                        </div>
+                        <h3 class="pricing-title">DIAMOND PACKAGE</h3>
+                        <h1 class="pricing-number">$420</h1>
+                        <ul>
+                            <li><i class="ri-checkbox-circle-line"></i>5 Days In A Week</li>
+                            <li><i class="ri-checkbox-circle-line"></i>01 Sweatshirt</li>
+                            <li><i class="ri-checkbox-circle-line"></i>01 Bottle of Protein</li>
+                            <li><i class="ri-checkbox-circle-line"></i>Access to Videos</li>
+                            <li><i class="ri-checkbox-circle-line"></i>Muscle Stretching</li>
+                        </ul>
+                        <a href="#" class="pricing-btn button button-flex">Purchase Now
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== CALCULATE ====================-->
+        <section class="calculate section">
+            <div class="calculate-container container grid">
+                <div class="calculate-content">
+                    <div class="section-titles">
+                        <h1 class="section-title-border">CALCULATE</h1>
+                        <h1 class="section-title">YOUR BMI</h1>
+                    </div>
+                    <p class="calculate-description">
+                        The body mass index (BMI) calculator calculates body mass index from your weight and height
+                    </p>
+                    <form action="" class="calculate-form" id="calculate-form">
+                        <div class="calculate-box">
+                            <input type="number" placeholder="Height" id="calculate-cm" class="calculate-input">
+                            <label for="">cm</label>
+                        </div>
+                        <div class="calculate-box">
+                            <input type="number" placeholder="weight" id="calculate-kg" class="calculate-input">
+                            <label for="">kg</label>
+                        </div>
+                        <button type="submit" class="calculate-btn button button-flex" id="register">
+                            Calculate Now<i class="ri-arrow-right-line"></i>
+                        </button>
+                    </form>
+                    <p class="calculate-message" id="calculate-message"></p>
+                </div>
+                <img src="images/calculate-img.png" alt="calculate image" class="calculate-img">
+
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section" id="footer">
+        <div class="footer-container container grid">
+            <div>
+                <a href="#" class="footer-logo">
+                    <img src="images/logo-nav.png" alt="logo">BEROTOT
+                </a>
+
+                <p class="footer-description">
+                    Subscribe for company <br> updates below.
+                </p>
+                <form id="contact-form">
+                    <input type="email" name="user-email" placeholder="Your email" class="input-box" id="contact-user">
+                    <button type="submit" class="button footer-btn">Subscribe</button>
+                </form>
+                <p class="footer-message" id="contact-message"></p>
+            </div>
+            <div class="footer-content grid">
+                <div class="footer-group">
+                    <h3 class="footer-title">SERVICES</h3>
+                    <ul>
+                        <li><a href="#">Flex Muscle</a></li>
+                        <li><a href="#">Cardio Exercise</a></li>
+                        <li><a href="#">Basic Yoga</a></li>
+                        <li><a href="#">Weight Lifting</a></li>
+                    </ul>
+                </div>
+                <div class="footer-group">
+                    <h3 class="footer-title">PRICING</h3>
+                    <ul>
+                        <li><a href="#">Basic Yoga</a></li>
+                        <li><a href="#">Premium</a></li>
+                        <li><a href="#">Diamond</a></li>
+                    </ul>
+                </div>
+                <div class="footer-group">
+                    <h3 class="footer-title">COMPANY</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Customers</a></li>
+                        <li><a href="#">Partners</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-social container">
+            <div class="social-link">
+                <ul>
+                    <a href="https://www.facebook.com/">
+                        <i class="ri-facebook-circle-fill"></i></a>
+                    <a href="https://twitter.com/">
+                        <i class="ri-twitter-fill"></i></a>
+                    <a href="https://www.instagram.com/">
+                        <i class="ri-instagram-line"></i></a>
+                </ul>
+                <p class="footer-copy">&#169; Copyright Bedimcode. All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+<script  src="main.js"></script>
+
+</body>
+</html>
