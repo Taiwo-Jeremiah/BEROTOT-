@@ -217,10 +217,12 @@ img {
   padding: .75rem 1.2rem;
   transition: background .6s;
   cursor: pointer;
+  border: 0;
 }
 
 .register-btn:hover {
   background: var(--first-color-alt);
+  border: 1px solid #000;
 }
 
 .register-btn a {
